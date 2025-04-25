@@ -1,13 +1,15 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-const Navbar = () => (
-  <nav className="bg-blue-600 p-4 text-white flex space-x-4">
-    <Link to="/">Inicio</Link>
-    <Link to="/nosotros">Nosotros</Link>
-    <Link to="/producto">Producto</Link>
-    <Link to="/galeria">Galería</Link>
+const Navbar: React.FC = () => (
+  <nav className="navbar">
+    <ul className="navbar-menu">
+      <li><Link to="/">Inicio</Link></li>
+      <li><Link to="/nosotros">Nosotros</Link></li>
+      <li><Link to="/producto">Producto</Link></li>
+      <li><Link to="/galeria">Galería</Link></li>
+    </ul>
   </nav>
 );
 

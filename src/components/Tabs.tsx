@@ -1,4 +1,4 @@
-// components/Tabs.tsx
+
 import React, { useState } from 'react';
 
 const Tabs = () => {
