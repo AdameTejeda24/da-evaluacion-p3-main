@@ -1,0 +1,32 @@
+[
+  {
+    "tanque": "SU100",
+    "nacion": "Rusia",
+    "precio": "650,000",
+    "imagen": "img1.jpg"
+  },
+  {
+    "tanque": "Lansen",
+    "nacion": "Suecia",
+    "precio": "1,200,000",
+    "imagen": "img2.jpg"
+  },
+  {
+    "tanque": "45TP",
+    "nacion": "Polonia",
+    "precio": "1,100,000",
+    "imagen": "img3.jpg"
+  },
+  {
+    "tanque": "Pantera p43",
+    "nacion": "Italia",
+    "precio": "2,000,000",
+    "imagen": "img4.jpg"
+  },
+  {
+    "tanque": "Skoda",
+    "nacion": "Checoslovaquia",
+    "precio": "1,000,000",
+    "imagen": "img5.jpg"
+  }
+]
